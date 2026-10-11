@@ -1,0 +1,202 @@
+source_file,damage_type,confidence,severity,severity_score,x1,y1,x2,y2,img_width,img_height,country_or_location,processed_at
+road_img_001.jpg,longitudinal_crack,0.91,Low,0.00485,391,32,443,62,640,480,Norway,2026-08-01T09:03:00
+road_img_002.jpg,pothole,0.75,Low,0.01053,194,107,226,184,640,480,India,2026-08-01T09:06:00
+road_img_003.jpg,pothole,0.72,Medium,0.03296,311,1,420,73,640,480,Czech Republic,2026-08-01T09:09:00
+road_img_004.jpg,pothole,0.65,Low,0.00435,483,52,543,70,640,480,India,2026-08-01T09:12:00
+road_img_005.jpg,longitudinal_crack,0.78,Low,0.01302,480,195,587,237,640,480,Norway,2026-08-01T09:15:00
+road_img_006.jpg,pothole,0.78,Medium,0.03066,391,224,474,309,640,480,Japan,2026-08-01T09:18:00
+road_img_007.jpg,transverse_crack,0.84,Low,0.00261,389,235,446,252,640,480,Norway,2026-08-01T09:21:00
+road_img_008.jpg,pothole,0.79,Medium,0.01785,328,51,371,146,640,480,China,2026-08-01T09:24:00
+road_img_009.jpg,pothole,0.6,Medium,0.03425,170,369,281,448,640,480,Norway,2026-08-01T09:27:00
+road_img_010.jpg,alligator_crack,0.94,Medium,0.02069,97,155,153,245,640,480,Norway,2026-08-01T09:30:00
+road_img_011.jpg,pothole,0.77,Medium,0.0161,301,17,382,63,640,480,China,2026-08-01T09:33:00
+road_img_012.jpg,pothole,0.73,Medium,0.02357,88,187,178,249,640,480,India,2026-08-01T09:36:00
+road_img_013.jpg,transverse_crack,0.77,Low,0.01449,398,83,484,148,640,480,Czech Republic,2026-08-01T09:39:00
+road_img_014.jpg,alligator_crack,0.56,Medium,0.03377,22,157,132,250,640,480,United States,2026-08-01T09:42:00
+road_img_015.jpg,alligator_crack,0.83,Low,0.00304,86,257,135,273,640,480,Japan,2026-08-01T09:45:00
+road_img_016.jpg,alligator_crack,0.92,Medium,0.02037,118,207,203,266,640,480,United States,2026-08-01T09:48:00
+road_img_017.jpg,transverse_crack,0.94,Low,0.00413,337,280,434,295,640,480,Norway,2026-08-01T09:51:00
+road_img_018.jpg,pothole,0.9,Low,0.01222,453,379,538,410,640,480,United States,2026-08-01T09:54:00
+road_img_019.jpg,pothole,0.64,Medium,0.01978,486,28,567,89,640,480,United States,2026-08-01T09:57:00
+road_img_020.jpg,alligator_crack,0.95,Medium,0.0307,211,248,335,308,640,480,Norway,2026-08-01T10:00:00
+road_img_021.jpg,transverse_crack,0.78,Low,0.0118,319,313,381,386,640,480,United States,2026-08-01T10:03:00
+road_img_022.jpg,longitudinal_crack,0.65,Low,0.00959,90,281,184,319,640,480,India,2026-08-01T10:06:00
+road_img_023.jpg,pothole,0.89,Low,0.00266,418,130,442,154,640,480,India,2026-08-01T10:09:00
+road_img_024.jpg,pothole,0.74,Low,0.01062,386,143,437,192,640,480,India,2026-08-01T10:12:00
+road_img_025.jpg,pothole,0.63,Low,0.00571,148,35,189,70,640,480,Czech Republic,2026-08-01T10:15:00
+road_img_026.jpg,alligator_crack,0.62,Medium,0.01978,139,331,250,383,640,480,Norway,2026-08-01T10:18:00
+road_img_027.jpg,pothole,0.76,Medium,0.01622,58,12,117,76,640,480,Czech Republic,2026-08-01T10:21:00
+road_img_028.jpg,transverse_crack,0.63,Medium,0.02158,55,129,168,209,640,480,Japan,2026-08-01T10:24:00
+road_img_029.jpg,pothole,0.74,Low,0.00347,499,10,547,27,640,480,Norway,2026-08-01T10:27:00
+road_img_030.jpg,longitudinal_crack,0.86,Medium,0.02631,82,228,192,307,640,480,China,2026-08-01T10:30:00
+road_img_031.jpg,transverse_crack,0.91,Medium,0.02765,500,322,622,403,640,480,Norway,2026-08-01T10:33:00
+road_img_032.jpg,longitudinal_crack,0.83,Medium,0.01551,202,345,295,401,640,480,China,2026-08-01T10:36:00
+road_img_033.jpg,alligator_crack,0.58,Low,0.0033,152,64,199,85,640,480,Czech Republic,2026-08-01T10:39:00
+road_img_034.jpg,longitudinal_crack,0.58,Low,0.01035,469,152,584,187,640,480,Norway,2026-08-01T10:42:00
+road_img_035.jpg,alligator_crack,0.61,Low,0.01359,287,19,382,61,640,480,United States,2026-08-01T10:45:00
+road_img_036.jpg,alligator_crack,0.91,Medium,0.03201,445,360,544,440,640,480,India,2026-08-01T10:48:00
+road_img_037.jpg,transverse_crack,0.7,Medium,0.01848,105,293,211,363,640,480,United States,2026-08-01T10:51:00
+road_img_038.jpg,longitudinal_crack,0.59,Low,0.01165,340,199,397,278,640,480,Norway,2026-08-01T10:54:00
+road_img_039.jpg,longitudinal_crack,0.81,Low,0.00227,205,144,227,179,640,480,Japan,2026-08-01T10:57:00
+road_img_040.jpg,pothole,0.9,Medium,0.02016,288,69,351,138,640,480,Japan,2026-08-01T11:00:00
+road_img_041.jpg,longitudinal_crack,0.59,Low,0.01375,194,280,258,363,640,480,Norway,2026-08-01T11:03:00
+road_img_042.jpg,pothole,0.78,Low,0.00272,33,371,58,396,640,480,Japan,2026-08-01T11:06:00
+road_img_043.jpg,longitudinal_crack,0.94,Medium,0.02106,109,137,226,194,640,480,United States,2026-08-01T11:09:00
+road_img_044.jpg,alligator_crack,0.66,Low,0.00621,173,174,207,226,640,480,Japan,2026-08-01T11:12:00
+road_img_045.jpg,pothole,0.81,Low,0.0116,488,366,570,398,640,480,United States,2026-08-01T11:15:00
+road_img_046.jpg,alligator_crack,0.59,Low,0.00615,20,208,49,271,640,480,Japan,2026-08-01T11:18:00
+road_img_047.jpg,pothole,0.7,Medium,0.03138,314,300,434,363,640,480,India,2026-08-01T11:21:00
+road_img_048.jpg,alligator_crack,0.65,Low,0.01198,41,136,107,188,640,480,United States,2026-08-01T11:24:00
+road_img_049.jpg,alligator_crack,0.6,Low,0.00223,459,141,492,161,640,480,Czech Republic,2026-08-01T11:27:00
+road_img_050.jpg,longitudinal_crack,0.84,Low,0.00204,46,211,80,231,640,480,Japan,2026-08-01T11:30:00
+road_img_051.jpg,longitudinal_crack,0.97,Low,0.00785,215,82,249,154,640,480,Japan,2026-08-01T11:33:00
+road_img_052.jpg,pothole,0.62,Medium,0.01869,432,52,507,115,640,480,United States,2026-08-01T11:36:00
+road_img_053.jpg,pothole,0.68,Medium,0.01827,129,364,210,419,640,480,India,2026-08-01T11:39:00
+road_img_054.jpg,longitudinal_crack,0.69,Medium,0.01716,13,5,133,57,640,480,China,2026-08-01T11:42:00
+road_img_055.jpg,alligator_crack,0.74,Low,0.00237,160,204,188,227,640,480,Czech Republic,2026-08-01T11:45:00
+road_img_056.jpg,pothole,0.97,Medium,0.02125,57,128,104,222,640,480,United States,2026-08-01T11:48:00
+road_img_057.jpg,pothole,0.75,Medium,0.01543,182,132,225,216,640,480,Japan,2026-08-01T11:51:00
+road_img_058.jpg,transverse_crack,0.66,Low,0.00543,41,143,72,215,640,480,India,2026-08-01T11:54:00
+road_img_059.jpg,pothole,0.83,Medium,0.01665,481,116,550,170,640,480,India,2026-08-01T11:57:00
+road_img_060.jpg,transverse_crack,0.69,Low,0.0066,433,296,491,342,640,480,Czech Republic,2026-08-01T12:00:00
+road_img_061.jpg,longitudinal_crack,0.81,Low,0.0042,413,305,444,351,640,480,Japan,2026-08-01T12:03:00
+road_img_062.jpg,longitudinal_crack,0.65,Low,0.0058,37,137,127,161,640,480,China,2026-08-01T12:06:00
+road_img_063.jpg,longitudinal_crack,0.82,Medium,0.01844,148,183,231,258,640,480,Japan,2026-08-01T12:09:00
+road_img_064.jpg,longitudinal_crack,0.88,Medium,0.02601,167,39,252,139,640,480,Japan,2026-08-01T12:12:00
+road_img_065.jpg,longitudinal_crack,0.61,Low,0.00433,72,163,131,191,640,480,China,2026-08-01T12:15:00
+road_img_066.jpg,alligator_crack,0.95,Low,0.00626,150,64,196,97,640,480,United States,2026-08-01T12:18:00
+road_img_067.jpg,pothole,0.56,Medium,0.0395,161,319,283,404,640,480,China,2026-08-01T12:21:00
+road_img_068.jpg,pothole,0.64,Low,0.01233,153,221,241,256,640,480,India,2026-08-01T12:24:00
+road_img_069.jpg,pothole,0.84,Medium,0.03461,129,32,236,104,640,480,Norway,2026-08-01T12:27:00
+road_img_070.jpg,alligator_crack,0.78,Low,0.0047,435,275,513,291,640,480,Norway,2026-08-01T12:30:00
+road_img_071.jpg,pothole,0.62,Medium,0.04642,248,12,369,109,640,480,Norway,2026-08-01T12:33:00
+road_img_072.jpg,pothole,0.56,Low,0.01146,354,181,448,213,640,480,United States,2026-08-01T12:36:00
+road_img_073.jpg,longitudinal_crack,0.66,Medium,0.01645,424,141,494,228,640,480,Norway,2026-08-01T12:39:00
+road_img_074.jpg,longitudinal_crack,0.59,Low,0.00891,248,3,290,85,640,480,Czech Republic,2026-08-01T12:42:00
+road_img_075.jpg,alligator_crack,0.83,Medium,0.01682,224,351,325,394,640,480,Japan,2026-08-01T12:45:00
+road_img_076.jpg,transverse_crack,0.85,Medium,0.02015,489,115,600,182,640,480,Czech Republic,2026-08-01T12:48:00
+road_img_077.jpg,alligator_crack,0.94,Medium,0.0219,469,334,524,431,640,480,Japan,2026-08-01T12:51:00
+road_img_078.jpg,longitudinal_crack,0.58,Low,0.00603,261,330,328,365,640,480,United States,2026-08-01T12:54:00
+road_img_079.jpg,pothole,0.93,Medium,0.02697,159,152,267,205,640,480,United States,2026-08-01T12:57:00
+road_img_080.jpg,transverse_crack,0.85,Low,0.0065,377,237,473,262,640,480,India,2026-08-01T13:00:00
+road_img_081.jpg,pothole,0.96,Low,0.00683,292,193,334,227,640,480,Czech Republic,2026-08-01T13:03:00
+road_img_082.jpg,transverse_crack,0.95,Medium,0.01541,368,26,451,91,640,480,China,2026-08-01T13:06:00
+road_img_083.jpg,pothole,0.72,Low,0.00747,432,84,521,104,640,480,United States,2026-08-01T13:09:00
+road_img_084.jpg,pothole,0.9,Low,0.00626,321,51,375,76,640,480,Japan,2026-08-01T13:12:00
+road_img_085.jpg,pothole,0.82,Low,0.01189,495,337,602,362,640,480,Norway,2026-08-01T13:15:00
+road_img_086.jpg,pothole,0.65,Medium,0.0344,435,195,557,265,640,480,Norway,2026-08-01T13:18:00
+road_img_087.jpg,longitudinal_crack,0.69,Low,0.00947,64,318,146,360,640,480,India,2026-08-01T13:21:00
+road_img_088.jpg,transverse_crack,0.78,Low,0.0141,465,60,569,112,640,480,Czech Republic,2026-08-01T13:24:00
+road_img_089.jpg,longitudinal_crack,0.87,Medium,0.0188,2,97,89,168,640,480,United States,2026-08-01T13:27:00
+road_img_090.jpg,longitudinal_crack,0.82,Medium,0.01792,310,124,436,172,640,480,Japan,2026-08-01T13:30:00
+road_img_091.jpg,longitudinal_crack,0.61,Low,0.01376,102,139,161,228,640,480,Czech Republic,2026-08-01T13:33:00
+road_img_092.jpg,pothole,0.74,Medium,0.02268,440,86,529,146,640,480,Norway,2026-08-01T13:36:00
+road_img_093.jpg,transverse_crack,0.6,Low,0.00663,106,292,175,333,640,480,Czech Republic,2026-08-01T13:39:00
+road_img_094.jpg,pothole,0.94,Low,0.00697,12,60,104,76,640,480,United States,2026-08-01T13:42:00
+road_img_095.jpg,transverse_crack,0.84,Low,0.00239,370,332,407,356,640,480,United States,2026-08-01T13:45:00
+road_img_096.jpg,transverse_crack,0.9,Medium,0.0177,223,257,329,317,640,480,United States,2026-08-01T13:48:00
+road_img_097.jpg,transverse_crack,0.6,Low,0.0081,367,230,431,284,640,480,United States,2026-08-01T13:51:00
+road_img_098.jpg,transverse_crack,0.89,Low,0.00666,349,292,432,321,640,480,China,2026-08-01T13:54:00
+road_img_099.jpg,pothole,0.71,Medium,0.02204,285,1,340,97,640,480,United States,2026-08-01T13:57:00
+road_img_100.jpg,pothole,0.87,Medium,0.0152,372,261,417,335,640,480,United States,2026-08-01T14:00:00
+road_img_101.jpg,pothole,0.73,Low,0.00897,381,364,440,400,640,480,Norway,2026-08-01T14:03:00
+road_img_102.jpg,alligator_crack,0.78,Low,0.00482,184,269,204,333,640,480,United States,2026-08-01T14:06:00
+road_img_103.jpg,transverse_crack,0.72,Low,0.00545,440,318,534,341,640,480,Norway,2026-08-01T14:09:00
+road_img_104.jpg,pothole,0.66,Medium,0.02195,495,332,552,427,640,480,India,2026-08-01T14:12:00
+road_img_105.jpg,transverse_crack,0.82,Medium,0.01568,324,203,444,252,640,480,Japan,2026-08-01T14:15:00
+road_img_106.jpg,pothole,0.9,Low,0.01425,309,5,373,53,640,480,China,2026-08-01T14:18:00
+road_img_107.jpg,transverse_crack,0.84,Low,0.01022,155,77,234,125,640,480,Norway,2026-08-01T14:21:00
+road_img_108.jpg,longitudinal_crack,0.77,Low,0.0083,138,261,170,351,640,480,Norway,2026-08-01T14:24:00
+road_img_109.jpg,longitudinal_crack,0.58,Low,0.00833,226,10,267,89,640,480,China,2026-08-01T14:27:00
+road_img_110.jpg,pothole,0.85,Medium,0.02439,205,325,313,375,640,480,United States,2026-08-01T14:30:00
+road_img_111.jpg,transverse_crack,0.78,Low,0.00324,121,170,175,193,640,480,India,2026-08-01T14:33:00
+road_img_112.jpg,pothole,0.94,Medium,0.02993,337,188,416,268,640,480,United States,2026-08-01T14:36:00
+road_img_113.jpg,pothole,0.62,Medium,0.03776,334,376,445,462,640,480,Czech Republic,2026-08-01T14:39:00
+road_img_114.jpg,transverse_crack,0.87,Low,0.0072,200,287,271,324,640,480,Norway,2026-08-01T14:42:00
+road_img_115.jpg,pothole,0.92,Low,0.0108,168,366,216,414,640,480,United States,2026-08-01T14:45:00
+road_img_116.jpg,pothole,0.91,Medium,0.01821,15,318,86,373,640,480,Norway,2026-08-01T14:48:00
+road_img_117.jpg,pothole,0.66,Low,0.01117,137,97,166,192,640,480,China,2026-08-01T14:51:00
+road_img_118.jpg,longitudinal_crack,0.97,Low,0.01196,227,297,340,330,640,480,United States,2026-08-01T14:54:00
+road_img_119.jpg,pothole,0.75,Medium,0.01627,83,70,202,102,640,480,China,2026-08-01T14:57:00
+road_img_120.jpg,transverse_crack,0.68,Low,0.00343,205,123,239,164,640,480,China,2026-08-01T15:00:00
+road_img_121.jpg,pothole,0.58,Medium,0.01835,116,203,177,281,640,480,India,2026-08-01T15:03:00
+road_img_122.jpg,pothole,0.57,Low,0.00354,414,305,436,347,640,480,China,2026-08-01T15:06:00
+road_img_123.jpg,longitudinal_crack,0.85,Medium,0.02095,417,370,515,441,640,480,Czech Republic,2026-08-01T15:09:00
+road_img_124.jpg,pothole,0.67,Low,0.00462,313,354,355,381,640,480,Japan,2026-08-01T15:12:00
+road_img_125.jpg,transverse_crack,0.76,Low,0.00568,193,86,242,131,640,480,Czech Republic,2026-08-01T15:15:00
+road_img_126.jpg,alligator_crack,0.8,Medium,0.02029,108,231,219,279,640,480,Czech Republic,2026-08-01T15:18:00
+road_img_127.jpg,alligator_crack,0.6,Low,0.00135,109,40,134,56,640,480,India,2026-08-01T15:21:00
+road_img_128.jpg,pothole,0.69,Low,0.00924,196,297,252,337,640,480,Norway,2026-08-01T15:24:00
+road_img_129.jpg,longitudinal_crack,0.9,Low,0.00674,330,77,451,95,640,480,India,2026-08-01T15:27:00
+road_img_130.jpg,transverse_crack,0.93,Medium,0.01639,277,29,369,92,640,480,Czech Republic,2026-08-01T15:30:00
+road_img_131.jpg,longitudinal_crack,0.75,Low,0.00114,430,155,451,174,640,480,United States,2026-08-01T15:33:00
+road_img_132.jpg,longitudinal_crack,0.91,Low,0.0111,21,140,140,170,640,480,Norway,2026-08-01T15:36:00
+road_img_133.jpg,longitudinal_crack,0.56,Low,0.0146,326,66,441,116,640,480,China,2026-08-01T15:39:00
+road_img_134.jpg,pothole,0.63,Medium,0.02344,229,199,291,294,640,480,Czech Republic,2026-08-01T15:42:00
+road_img_135.jpg,pothole,0.83,Low,0.01086,124,125,151,215,640,480,United States,2026-08-01T15:45:00
+road_img_136.jpg,longitudinal_crack,0.73,Medium,0.02304,357,286,458,367,640,480,India,2026-08-01T15:48:00
+road_img_137.jpg,pothole,0.79,Medium,0.04026,275,102,386,185,640,480,Norway,2026-08-01T15:51:00
+road_img_138.jpg,pothole,0.58,Low,0.00907,136,380,234,404,640,480,Czech Republic,2026-08-01T15:54:00
+road_img_139.jpg,longitudinal_crack,0.59,Medium,0.02303,30,104,159,173,640,480,India,2026-08-01T15:57:00
+road_img_140.jpg,longitudinal_crack,0.59,Medium,0.01636,416,262,496,341,640,480,Czech Republic,2026-08-01T16:00:00
+road_img_141.jpg,longitudinal_crack,0.68,Low,0.00466,64,272,88,343,640,480,China,2026-08-01T16:03:00
+road_img_142.jpg,longitudinal_crack,0.72,Low,0.00528,362,228,385,310,640,480,Czech Republic,2026-08-01T16:06:00
+road_img_143.jpg,longitudinal_crack,0.89,Low,0.00473,43,154,67,218,640,480,India,2026-08-01T16:09:00
+road_img_144.jpg,pothole,0.68,Medium,0.03127,66,133,187,196,640,480,India,2026-08-01T16:12:00
+road_img_145.jpg,pothole,0.68,Medium,0.02963,217,125,301,211,640,480,Japan,2026-08-01T16:15:00
+road_img_146.jpg,transverse_crack,0.7,Medium,0.01779,401,200,495,276,640,480,India,2026-08-01T16:18:00
+road_img_147.jpg,longitudinal_crack,0.9,Medium,0.03083,268,286,380,375,640,480,China,2026-08-01T16:21:00
+road_img_148.jpg,alligator_crack,0.56,Low,0.01329,425,149,540,184,640,480,Japan,2026-08-01T16:24:00
+road_img_149.jpg,transverse_crack,0.77,Low,0.00514,49,209,113,240,640,480,United States,2026-08-01T16:27:00
+road_img_150.jpg,longitudinal_crack,0.68,Low,0.01323,409,333,497,388,640,480,Norway,2026-08-01T16:30:00
+road_img_151.jpg,transverse_crack,0.7,Low,0.00335,166,266,250,282,640,480,United States,2026-08-01T16:33:00
+road_img_152.jpg,longitudinal_crack,0.69,Medium,0.01848,372,166,492,222,640,480,United States,2026-08-01T16:36:00
+road_img_153.jpg,longitudinal_crack,0.97,Low,0.01333,245,232,311,295,640,480,India,2026-08-01T16:39:00
+road_img_154.jpg,pothole,0.89,Medium,0.03091,68,24,155,101,640,480,United States,2026-08-01T16:42:00
+road_img_155.jpg,pothole,0.66,Medium,0.02186,125,359,218,417,640,480,Czech Republic,2026-08-01T16:45:00
+road_img_156.jpg,pothole,0.89,Medium,0.02015,189,206,248,280,640,480,United States,2026-08-01T16:48:00
+road_img_157.jpg,pothole,0.78,Low,0.00776,85,14,123,61,640,480,China,2026-08-01T16:51:00
+road_img_158.jpg,longitudinal_crack,0.61,Medium,0.02072,57,94,175,161,640,480,China,2026-08-01T16:54:00
+road_img_159.jpg,alligator_crack,0.9,Low,0.00608,279,348,333,376,640,480,Japan,2026-08-01T16:57:00
+road_img_160.jpg,longitudinal_crack,0.82,Low,0.00213,269,328,299,352,640,480,Japan,2026-08-01T17:00:00
+road_img_161.jpg,pothole,0.62,Low,0.00783,441,221,463,311,640,480,Czech Republic,2026-08-01T17:03:00
+road_img_162.jpg,pothole,0.76,Low,0.00825,413,145,461,185,640,480,United States,2026-08-01T17:06:00
+road_img_163.jpg,alligator_crack,0.94,Medium,0.01928,120,217,197,278,640,480,United States,2026-08-01T17:09:00
+road_img_164.jpg,pothole,0.63,Low,0.00542,246,371,275,418,640,480,Norway,2026-08-01T17:12:00
+road_img_165.jpg,longitudinal_crack,0.87,Medium,0.01992,394,194,479,271,640,480,India,2026-08-01T17:15:00
+road_img_166.jpg,transverse_crack,0.93,Medium,0.01834,407,296,501,365,640,480,India,2026-08-01T17:18:00
+road_img_167.jpg,transverse_crack,0.97,Medium,0.01624,3,97,61,194,640,480,India,2026-08-01T17:21:00
+road_img_168.jpg,alligator_crack,0.9,Medium,0.04019,262,161,381,245,640,480,China,2026-08-01T17:24:00
+road_img_169.jpg,alligator_crack,0.79,Medium,0.0273,269,210,358,291,640,480,Norway,2026-08-01T17:27:00
+road_img_170.jpg,alligator_crack,0.8,Low,0.01083,231,154,267,233,640,480,Norway,2026-08-01T17:30:00
+road_img_171.jpg,alligator_crack,0.79,Medium,0.01891,500,83,552,179,640,480,India,2026-08-01T17:33:00
+road_img_172.jpg,pothole,0.87,Medium,0.0208,289,18,356,86,640,480,Norway,2026-08-01T17:36:00
+road_img_173.jpg,transverse_crack,0.83,Low,0.00153,384,342,406,368,640,480,India,2026-08-01T17:39:00
+road_img_174.jpg,pothole,0.71,Medium,0.03132,237,139,358,201,640,480,China,2026-08-01T17:42:00
+road_img_175.jpg,pothole,0.76,Low,0.00972,172,198,250,227,640,480,Norway,2026-08-01T17:45:00
+road_img_176.jpg,transverse_crack,0.73,Medium,0.01508,9,88,133,136,640,480,Czech Republic,2026-08-01T17:48:00
+road_img_177.jpg,pothole,0.8,Medium,0.01863,147,211,200,291,640,480,Czech Republic,2026-08-01T17:51:00
+road_img_178.jpg,pothole,0.85,Medium,0.04139,221,171,340,248,640,480,Japan,2026-08-01T17:54:00
+road_img_179.jpg,pothole,0.76,Medium,0.03291,497,205,608,274,640,480,India,2026-08-01T17:57:00
+road_img_180.jpg,longitudinal_crack,0.64,Low,0.00543,76,117,189,135,640,480,India,2026-08-01T18:00:00
+road_img_181.jpg,longitudinal_crack,0.76,Medium,0.01993,487,50,558,148,640,480,China,2026-08-01T18:03:00
+road_img_182.jpg,longitudinal_crack,0.55,Low,0.00558,218,313,244,398,640,480,Japan,2026-08-01T18:06:00
+road_img_183.jpg,alligator_crack,0.7,Low,0.01009,484,333,517,418,640,480,China,2026-08-01T18:09:00
+road_img_184.jpg,transverse_crack,0.84,Low,0.01442,60,135,167,185,640,480,Japan,2026-08-01T18:12:00
+road_img_185.jpg,alligator_crack,0.89,Medium,0.02016,439,24,559,66,640,480,China,2026-08-01T18:15:00
+road_img_186.jpg,pothole,0.92,Medium,0.01877,63,342,140,394,640,480,China,2026-08-01T18:18:00
+road_img_187.jpg,alligator_crack,0.94,Medium,0.04024,59,310,188,386,640,480,India,2026-08-01T18:21:00
+road_img_188.jpg,longitudinal_crack,0.81,Low,0.00978,359,103,400,184,640,480,Czech Republic,2026-08-01T18:24:00
+road_img_189.jpg,transverse_crack,0.93,Medium,0.02253,274,147,357,243,640,480,United States,2026-08-01T18:27:00
+road_img_190.jpg,pothole,0.89,Medium,0.04619,319,172,449,249,640,480,India,2026-08-01T18:30:00
+road_img_191.jpg,longitudinal_crack,0.98,Medium,0.01737,336,177,446,226,640,480,India,2026-08-01T18:33:00
+road_img_192.jpg,alligator_crack,0.74,Low,0.01443,389,51,438,131,640,480,Czech Republic,2026-08-01T18:36:00
+road_img_193.jpg,longitudinal_crack,0.66,Low,0.00548,75,66,127,105,640,480,Norway,2026-08-01T18:39:00
+road_img_194.jpg,alligator_crack,0.81,Medium,0.03101,491,29,579,121,640,480,United States,2026-08-01T18:42:00
+road_img_195.jpg,longitudinal_crack,0.73,Medium,0.01657,143,245,252,299,640,480,Czech Republic,2026-08-01T18:45:00
+road_img_196.jpg,alligator_crack,0.76,Low,0.0108,306,240,356,298,640,480,Japan,2026-08-01T18:48:00
+road_img_197.jpg,alligator_crack,0.63,Medium,0.02682,450,297,558,369,640,480,United States,2026-08-01T18:51:00
+road_img_198.jpg,longitudinal_crack,0.77,Low,0.01034,270,353,307,450,640,480,Japan,2026-08-01T18:54:00
+road_img_199.jpg,transverse_crack,0.76,Low,0.00297,168,60,204,92,640,480,China,2026-08-01T18:57:00
+road_img_200.jpg,longitudinal_crack,0.59,Low,0.00585,275,359,301,446,640,480,Japan,2026-08-01T19:00:00
+

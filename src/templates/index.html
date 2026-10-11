@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Road Damage Scan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+  <div class="stripes"></div>
+  <header>
+    <div class="wrap">
+      <div class="copy">
+        <div class="eyebrow">DAMAGE DETECTION UNIT</div>
+        <h1>Road Surface Scan</h1>
+        <p>Upload a pavement photo. The model marks cracks and potholes, rates severity, and logs every result for Power BI.</p>
+      </div>
+      <div class="header-stats">
+        <div><span>{{ stats.total }}</span> logged detections</div>
+        <div><span>{{ stats.images }}</span> photos scanned</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>New scan</h2>
+      <form method="post" enctype="multipart/form-data" id="scan-form">
+        <div class="grid-2">
+          <div class="field">
+            <label>Photo</label>
+            <div class="dropzone" id="dropzone">
+              <img id="preview" alt="" hidden>
+              <div id="dz-placeholder">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1.6"><path d="M12 16V4M12 4l-4 4M12 4l4 4"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+                <div id="dz-text">Drag a photo here, or click to browse</div>
+                <div class="hint">JPEG, PNG, WebP — road-level shots work best</div>
+              </div>
+              <input type="file" name="photo" accept="image/*" required id="file-input">
+            </div>
+          </div>
+          <div>
+            <div class="field">
+              <label>Location tag</label>
+              <input type="text" name="location" placeholder="e.g. Hyderabad, NH-44" value="{{ location or 'My City' }}">
+            </div>
+            <div class="field">
+              <label>Minimum confidence <span id="conf-val">{{ '%.2f'|format(conf) }}</span></label>
+              <input type="range" name="conf" id="conf" min="0.10" max="0.50" step="0.01" value="{{ conf }}">
+            </div>
+            <div class="field check">
+              <input type="checkbox" name="save_csv" id="save_csv" checked>
+              <label for="save_csv">Log this result to detections.csv (Power BI)</label>
+            </div>
+            <button type="submit" id="run-btn">Run detection</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    {% if error %}
+    <section class="panel err">{{ error }}</section>
+    {% endif %}
+
+    {% if img_data %}
+    <section class="panel result-panel">
+      <div class="result-meta">
+        <span class="count">{{ rows|length }} detection{{ '' if rows|length == 1 else 's' }}</span>
+        <span class="timestamp">{{ engine_note }} · {{ filename }}</span>
+      </div>
+      <img class="result" src="data:image/jpeg;base64,{{ img_data }}" alt="Annotated scan">
+      {% if rows %}
+      <table>
+        <thead>
+          <tr><th>Type</th><th>Confidence</th><th>Severity</th><th>Score</th></tr>
+        </thead>
+        <tbody>
+        {% for r in rows %}
+        <tr>
+          <td>{{ r.damage_type.replace('_', ' ') }}</td>
+          <td>{{ '%.0f'|format(r.confidence * 100) }}%</td>
+          <td><span class="badge {{ r.severity }}">{{ r.severity }}</span></td>
+          <td>{{ r.severity_score }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="empty">No damage found at this confidence. Try a closer road-level photo or lower the confidence slider.</p>
+      {% endif %}
+      {% if saved %}<div class="saved-note">Logged {{ rows|length }} row{{ '' if rows|length == 1 else 's' }} to detections.csv — refresh Power BI to see it.</div>{% endif %}
+    </section>
+    {% endif %}
+
+    <section class="panel">
+      <div class="result-meta">
+        <h2>Live dashboard</h2>
+        <a class="link" href="{{ url_for('download_csv') }}">Download CSV</a>
+      </div>
+      <p class="hint dash-hint">Same file Power BI reads: <code>outputs/csv/detections.csv</code>. After each scan, click <strong>Refresh</strong> in Power BI Desktop. Or connect Power BI to <code>http://127.0.0.1:5000/api/detections.csv</code>.</p>
+      <div class="stat-cards">
+        <div class="stat-card"><div class="n">{{ stats.total }}</div><div class="l">Total detections</div></div>
+        <div class="stat-card high"><div class="n">{{ stats.high }}</div><div class="l">High severity</div></div>
+        <div class="stat-card"><div class="n">{{ stats.images }}</div><div class="l">Photos</div></div>
+        <div class="stat-card"><div class="n">{{ stats.avg_conf }}</div><div class="l">Avg confidence</div></div>
+      </div>
+      <div class="grid-2 charts">
+        <div>
+          <h3>By damage type</h3>
+          {% for name, count, pct in stats.by_type %}
+          <div class="bar-row">
+            <span>{{ name.replace('_', ' ') }}</span>
+            <div class="bar"><i style="width: {{ pct }}%"></i></div>
+            <b>{{ count }}</b>
+          </div>
+          {% else %}
+          <p class="empty">No rows yet.</p>
+          {% endfor %}
+        </div>
+        <div>
+          <h3>By severity</h3>
+          {% for name, count, pct in stats.by_sev %}
+          <div class="bar-row">
+            <span>{{ name }}</span>
+            <div class="bar sev-{{ name }}"><i style="width: {{ pct }}%"></i></div>
+            <b>{{ count }}</b>
+          </div>
+          {% else %}
+          <p class="empty">No rows yet.</p>
+          {% endfor %}
+        </div>
+      </div>
+      {% if stats.recent %}
+      <h3>Recent scans</h3>
+      <table>
+        <thead><tr><th>When</th><th>File</th><th>Location</th><th>Type</th><th>Severity</th></tr></thead>
+        <tbody>
+        {% for r in stats.recent %}
+        <tr>
+          <td>{{ r.processed_at }}</td>
+          <td>{{ r.source_file }}</td>
+          <td>{{ r.country_or_location }}</td>
+          <td>{{ r.damage_type.replace('_', ' ') }}</td>
+          <td><span class="badge {{ r.severity }}">{{ r.severity }}</span></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% endif %}
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
